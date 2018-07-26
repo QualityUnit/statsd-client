@@ -85,7 +85,7 @@ abstract class AbstractClient {
      * @param float $sampleRate only send percentage of reported stats (0..1)
      * @param array $tags
      *
-     * @return AbstractClient
+     * @return $this
      */
     public function timing(string $key, int $value, float $sampleRate = 1, array $tags = []) {
         return $this->send($key, $value, 'ms', $sampleRate, $tags);
