@@ -1,0 +1,16 @@
+{
+    "name": "qualityunit/statsd-client",
+    "type": "library",
+    "description": "simple php statsd client implementation",
+    "keywords": ["statsd", "client", "qualityunit"],
+    "homepage": "https://github.com/QualityUnit/statsd-client",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qu\\Statsd\\": "lib"
+        }
+    }
+}
